@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/x-icon" href="/console.png">
+  <title>Block Breaker</title>
+</head>
+
+<body>
+  <div id="canvas-container">
+    <p id="skore">Skóre: 0</p>
+    <p id="hp">Životy: 3</p>
+    <p id="nick">Jméno: Nezadáno</p>
+    <div id="jmeno"><input type="text" id="userInput" title="Zadej jméno">
+      <button type="submit" id="potvrzeni" onclick="button()" class="button">Klikni pro zadání jména</button></div>
+    
+    <div id="canvasBG">
+      <canvas id="gameCanvas" width="800" height="600"></canvas>
+    </div>
+  </div>
+  <div id="header-container">
+  </div>
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
